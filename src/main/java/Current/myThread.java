@@ -12,7 +12,7 @@ public class myThread extends Thread {
 
         //Настраиваем addQueryParameter для URL
         HttpUrl.Builder urlBuilder = HttpUrl.parse("http://api.weatherapi.com/v1/current.json").newBuilder();
-        urlBuilder.addQueryParameter("key", "58017c49095544888d3141958231204");
+        urlBuilder.addQueryParameter("key", "private_key");
         urlBuilder.addQueryParameter("q", "Омск");
 
         String url = urlBuilder.build().toString();
