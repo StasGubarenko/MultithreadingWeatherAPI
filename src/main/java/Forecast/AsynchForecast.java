@@ -15,7 +15,7 @@ public class AsynchForecast implements Runnable {
 
         Map<String, String> requestParams = new HashMap<>();
 
-        requestParams.put("key", "58017c49095544888d3141958231204");
+        requestParams.put("key", "private_key");
         requestParams.put("q", "London");
         requestParams.put("days", "1");
         requestParams.put("api", "no");
